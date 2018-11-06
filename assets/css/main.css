@@ -2174,8 +2174,8 @@
 		input[type="reset"].down,
 		.button.down,
 		button.down {
-			width: 5em;
-			height: 5em;
+			width: 7em;
+			height: 7em;
 			line-height: 4.5em;
 			padding: 0;
 			background-image: url("images/dark-arrow.svg");
@@ -2192,8 +2192,8 @@
 			button.down.anchored {
 				bottom: 0;
 				border-bottom: 0;
-				border-radius: 3em 3em 0 0;
-				height: 4.5em;
+				border-radius: 5em 5em 0 0;
+				height: 5.5em;
 				margin-left: -2.5em;
 			}
 
@@ -2228,7 +2228,7 @@
 		.button.style2,
 		button.style2 {
 			background-color: transparent;
-			border: solid 2px #e5e6e7;
+			border: solid 4px #e5e6e7;
 			color: inherit;
 		}
 
@@ -2257,7 +2257,8 @@
 	}
 
 		.box.style2 {
-			padding: 3.5em 2.5em 3.5em 2.5em;
+			padding: 0em 4.5em 0.5em 1.5em;
+			border: solid #5B6DCD 4px;
 		}
 
 /* Main */
@@ -2274,11 +2275,11 @@
 
 		.main.style1 {
 			text-align: right;
-			padding: 3em 5em 3em 0;
+			padding: 0.1em 8em 0.1em 0.1em;
 		}
 
 			.main.style1 h2 {
-				font-size: 3em;
+				font-size: 3.5em;
 				line-height: 1em;
 				letter-spacing: -4px;
 			}
@@ -2323,7 +2324,7 @@
 				-ms-transform: translateZ(0);
 				transform: translateZ(0);
 				position: relative;
-				width: 35%;
+				width: 75%;
 				display: inline-block;
 				vertical-align: middle;
 			}
@@ -2347,7 +2348,7 @@
 			}
 
 			.main.style2.right .content {
-				left: 65%;
+				left: 100%;
 			}
 
 			.main.style2.inactive.left .content {
@@ -2839,7 +2840,7 @@
 	}
 
 		#logo a {
-			font-size: 1.25em;
+			font-size: 2.5em;
 		}
 
 	#nav {
@@ -3199,15 +3200,15 @@
 		/* Main */
 
 			.main.style2 .content {
-				width: 40%;
+				width: 60%;
 			}
 
 			.main.style2.right .content {
-				left: 60%;
+				left: 40%;
 			}
 
 			.main.style2.inactive.left .content {
-				left: -40%;
+				left: -60%;
 			}
 
 	}
